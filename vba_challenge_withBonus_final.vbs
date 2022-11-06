@@ -125,13 +125,6 @@ percentDecreaseValue = 0
 Dim maxTotalVolTick As String
 Dim maxTotalVolValue As Double
 
-'print headers in  new columns
-Cells(1, 16).Value = "Ticker"
-Cells(1, 17).Value = "Value"
-Cells(2, 15).Value = "Greatest % Increase"
-Cells(3, 15).Value = "Greatest % Decrease"
-Cells(4, 15).Value = "Greatest Total Volume"
-
 'Cycle through worksheets in workbook
 For Each ws In ThisWorkbook.Worksheets
 
