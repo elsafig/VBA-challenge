@@ -3,7 +3,6 @@ Sub final_VBAChallenge()
 
 'Create variables to hold values for calculations
 Dim openingPrice As Double
-openingPrice = Cells(2, 3)
 
 Dim closingPrice As Double
 closingPrice = 0
